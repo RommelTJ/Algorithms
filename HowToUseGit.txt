@@ -1,0 +1,42 @@
+- git init -
+1. cd into your directory and run: "git init". This initializes a Git repository in that folder, adding a .git folder within it.
+
+- git add -
+1. This command moves your files to the staging area so you can commit them. You do that with: "git add .". The period simply means to stage everything, but you could be more specific, for example "git add *.js" or "git add index.php".
+
+- git commit - 
+1. After staging, we need to commit: "git commit". This launches Vi and asks
+you to type a message. You can also do "git commit -m "my message"" to skip
+this.
+2. The -a allows you stage all modified files and commit at the same time. Ex:
+"git commit -am "Initial Commit"".
+
+- git status - 
+1. To see the current status of your code, type "git status".
+
+- git branch/checkout - 
+1. This command allows you to branch a project so that if modifications don't
+work, there's no harm done.
+2. To list your branches: "git branch".
+3. To create a branch: "git branch myBranch".
+4. To switch to a branch: "git checkout myBranch".
+
+- git merge - 
+1. To merge a branch, type "git merge myBranch" while on the branch you want
+it to merge to.
+2. To delete a branch: "git branch -d myBranch".
+3. To delete a branch that you have not merged: "git branch -D myBranch".
+
+- git log -
+1. To output a list of all the commits: "git log".
+2. To output all commits with graphics: "git log --graph".
+
+- GitHub - 
+-- Git Clone --
+1. If you find a project you want to clone: "git clone git://github.com/jquery/jquery.git".
+2. This creates a folder and copies the whole repository to your computer.
+
+-- Git Push --
+1. First, create a repository in GitHub.com. GitHub will give you a public
+clone URL and a personal clone URL. 
+2. Go back to the project in the terminal and type: "".
