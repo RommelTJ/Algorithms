@@ -1,3 +1,11 @@
+**************************************************************
+* File: HowToUseGit.txt                                      *
+* Description: A brief guide to using the main Git commands. *
+* Date Last Modified: 20 Jan 2013.                           *
+* Author: Rommel Rico (with help from Online Tutorial by     *
+*         Andrew Burgess at net.tutsplus.com).               *
+**************************************************************
+
 - git init -
 1. cd into your directory and run: "git init". This initializes a Git repository in that folder, adding a .git folder within it.
 
@@ -47,5 +55,6 @@ repository at GitHub under name "romri".
 5. "git commit -am "GitHub Commit"".
 6. Finally, push it into GitHub: "git push romri master". 
 
-
-
+Notes/Contributions:
+A lot of help was obtained from the tutorial by Andrew Burgess at
+http://net.tutsplus.com/tutorials/other/easy-version-control-with-git/ 

@@ -1,0 +1,13 @@
+***********************************
+* Author: Rommel Rico             *
+* Date Last Modified: 20 Jan 2013 *
+***********************************
+
+Notes about trees and tree traversal go here.
+
+Pre-order
+
+In-order
+
+Post-order
+
