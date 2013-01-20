@@ -39,4 +39,13 @@ it to merge to.
 -- Git Push --
 1. First, create a repository in GitHub.com. GitHub will give you a public
 clone URL and a personal clone URL. 
-2. Go back to the project in the terminal and type: "".
+2. Go back to the project in the terminal and type: "git remote add romri
+git@github.com:RommelTJ/Algorithms.git". This creates a link to the remote
+repository at GitHub under name "romri".
+3. You will have to pull and merge the changes first: "git pull romri master".
+4. Then, "git add ."
+5. "git commit -am "GitHub Commit"".
+6. Finally, push it into GitHub: "git push romri master". 
+
+
+
